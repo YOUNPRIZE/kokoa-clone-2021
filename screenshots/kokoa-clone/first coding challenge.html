@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>Create Your Account!</h1>
+    <form>
+      <label for="First Name">First Name </label><input required placeholder="First Name" type="text" />
+      <br><label for="Last Name">Last Name </label><input required placeholder="Last Name" type="text" /></br>
+      <label for="E-mail">E-mail </label><input required placeholder="E-mail" type="email" />
+      <br><label for="Username">Username </label><input required placeholder="Username" type="text" /></br>
+      <label for="Password">Password </label><input required placeholder="Password" minlength="10" type="password" />
+      <br><label for="Birth date">Birth date </label><input required type="date" min="1900-01-01" max="2020-12-31"/></br>
+      <label for="A measure of Happiness">How happy are you? </label><input required type="range" list="tickmarks">
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+      <br><label for="Favorite Color">What is your fav.color? </label><input required type="color" /></br>
+      <input type="submit" value="Create Account" />
+    </form>
+  </body>
+</html>
